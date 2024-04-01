@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TecOqiVpHP1khdt7xE8+J7J55W/YQ4NlLJkTEy77e6M=",
+  "Source": "WalletWatchAPI",
+  "BasePath": "_content/WalletWatchAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
