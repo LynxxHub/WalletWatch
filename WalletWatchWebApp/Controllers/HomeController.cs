@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using WalletWatchWebApp.Models;
 using WalletWatchWebApp.Models.ViewModels;
 
 namespace WalletWatchWebApp.Controllers

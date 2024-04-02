@@ -265,6 +265,7 @@ C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\WalletWatchAPI.deps.json
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\WalletWatchAPI.runtimeconfig.json
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\WalletWatchAPI.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\WalletWatchAPI.pdb
+C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Azure.Identity.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Humanizer.dll
@@ -504,6 +505,7 @@ C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.AssemblyInf
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.csproj.CoreCompileInputs.cache
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.sourcelink.json
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\staticwebassets\msbuild.WalletWatchAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -518,5 +520,3 @@ C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\refint\WalletWatchAPI.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.pdb
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.genruntimeconfig.cache
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\ref\WalletWatchAPI.dll
-C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\AutoMapper.dll
-C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.sourcelink.json

@@ -70,14 +70,22 @@ namespace WalletWatchWebApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Register(RegisterViewModel input)
+        public async Task<IActionResult> Register(RegisterViewModel input)
         {
             if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            return RedirectToAction("Index", "Home");
+            var httpClient = _httpClientFactory.CreateClient();
+            var response = await httpClient.PostAsJsonAsync("https://localhost:7234/api/auth/register", input);
+
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Notification"] = "Registration successful! Please check your email to confirm your account.";
+            }
+
+            return RedirectToAction("Login");
         }
 
         [HttpPost]

@@ -20,7 +20,6 @@ namespace WalletWatchWebApp.Middlewares
         public async Task Invoke(HttpContext context)
         {
             var token = context.Request.Cookies["JWT"];
-            _logger.LogError(token);
             if (!string.IsNullOrEmpty(token))
             {
                 context.Items["IsAuthenticated"] = true;

@@ -31,5 +31,7 @@ namespace WalletWatchWebApp.Models.ViewModels
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public string? StatusMessage { get; set; }
     }
 }
