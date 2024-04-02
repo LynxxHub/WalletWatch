@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TDEh50cZXYesgbbMpkjzWfYD+ErbYueMDNHczauwd55PT0CyGpwnNyMOUBrTiSS1aMNlyhjdvtWeOc9qafLhow==",
+  "dgSpecHash": "9HkMk9jZ293An27SvgzBixfA8o1w6XZ8FvZRk/CGz5Pd7aXomYnzyqn5zukdkvRSBx/m0kllM64S2dtW2fZZMA==",
   "success": true,
   "projectFilePath": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\WalletWatchAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Wests\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
