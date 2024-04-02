@@ -519,3 +519,4 @@ C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.pdb
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.genruntimeconfig.cache
 C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\ref\WalletWatchAPI.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\VSRepo\WalletWatch\WalletWatchAPI\obj\Debug\net8.0\WalletWatchAPI.sourcelink.json

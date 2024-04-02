@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalletWatchAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92481abdb2a63468070b438fee42fdc5d5813f47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f9f9f89c02ad9f7a303f78215a21c84aa45e125")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalletWatchAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalletWatchAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

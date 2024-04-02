@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OpOWL+u+62L57/LEPd7tk+ZfmUwc428trbU7dHmGYRmzpmpv5igBMW0JBHvZmao64amZzg1Q2B8E4OAdhABnSA==",
+  "success": true,
+  "projectFilePath": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\WalletWatchWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.0\\microsoft.identitymodel.abstractions.7.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.0\\microsoft.identitymodel.jsonwebtokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.0\\microsoft.identitymodel.logging.7.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.0\\microsoft.identitymodel.tokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.0\\system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

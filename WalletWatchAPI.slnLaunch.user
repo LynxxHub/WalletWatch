@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "WalletWatchAPI\\WalletWatchAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "WalletWatchWebApp\\WalletWatchWebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
