@@ -10,12 +10,16 @@ C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Microsoft.IdentityModel
 C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Syncfusion.EJ2.dll
+C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\Syncfusion.Licensing.dll
 C:\VSRepo\WalletWatch\WalletWatchWebApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.csproj.AssemblyReference.cache
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.AssemblyInfoInputs.cache
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.AssemblyInfo.cs
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.csproj.CoreCompileInputs.cache
+C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.RazorAssemblyInfo.cache
 C:\VSRepo\WalletWatch\WalletWatchWebApp\obj\Debug\net8.0\WalletWatchWebApp.RazorAssemblyInfo.cs

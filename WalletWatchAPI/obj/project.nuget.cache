@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9HkMk9jZ293An27SvgzBixfA8o1w6XZ8FvZRk/CGz5Pd7aXomYnzyqn5zukdkvRSBx/m0kllM64S2dtW2fZZMA==",
+  "dgSpecHash": "WlK2E3zjfbwcNAoCmxuNobC3cbHtE7Pm929HO1TzN9yMkrhNLt4hEvyKG0qjhRD+OsLb5TnlTBzk8GTWnHpbAw==",
   "success": true,
   "projectFilePath": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\WalletWatchAPI.csproj",
   "expectedPackageFiles": [
@@ -136,6 +136,8 @@
     "C:\\Users\\Wests\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\syncfusion.ej2.aspnet.core\\25.1.38\\syncfusion.ej2.aspnet.core.25.1.38.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\syncfusion.licensing\\25.1.38\\syncfusion.licensing.25.1.38.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",

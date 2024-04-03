@@ -3,33 +3,29 @@
     ViewData["Title"] = "Login";
 }
 
-<h2>@ViewData["Title"]</h2>
-
-<form asp-action="Login" method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-7">
+        <div class="widget p-3 p-md-5" style="background-color:#212b36">
+            <form asp-action="Login">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3">
+                    <ejs-textbox id="Username" placeholder="Username" ejs-for="Username"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox type="password" id="Password" placeholder="Password" ejs-for="Password"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-checkbox ejs-for="RememberMe" id="rememberMe" cssClass="e-success" label="Remember me?" checked="false"></ejs-checkbox>
+                </div>
+                <ejs-button id="submit" type="submit" content="LOGIN" cssClass="btn btn-login"></ejs-button>
+            </form>
+        </div>
     </div>
-
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
+    <div class="col-12 col-sm-12 col-md-5 usersWidget">
+        <div class="widget h-100 d-flex justify-content-center align-items-center p-3 p-md-0">
+            <i class="fa-solid fa-users fa-3x fa-md-2xl"></i>
+        </div>
     </div>
-
-    <div class="form-group form-check">
-        <input asp-for="RememberMe" class="form-check-input" />
-        <label asp-for="RememberMe" class="form-check-label"></label>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+</div>

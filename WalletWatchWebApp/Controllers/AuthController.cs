@@ -15,6 +15,11 @@ namespace WalletWatchWebApp.Controllers
         {
             _httpClientFactory = httpClientFactory;
         }
+        public ActionResult Index()
+        {
+            return RedirectToAction("Login");
+        }
+
         public ActionResult Login()
         {
             return View();
@@ -89,6 +94,16 @@ namespace WalletWatchWebApp.Controllers
         }
 
         [HttpPost]
+        public async Task<IActionResult> Logout(int id)
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            Response.Cookies.Delete("JWT");
+
+            return RedirectToAction("Login", "Auth");
+        }
+
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

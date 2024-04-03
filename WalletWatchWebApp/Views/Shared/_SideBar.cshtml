@@ -1,0 +1,145 @@
+﻿﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    List<Object> menuItems = new List<Object>();
+
+    menuItems.Add(new
+    {
+        text = "General",
+        separator = true,
+    });
+    menuItems.Add(new
+    {
+        text = "Dashboard",
+        url = "/",
+        iconCss = "fa-solid fa-box",
+    });
+    menuItems.Add(new
+    {
+        text = "Categories",
+        url = "/Category",
+        iconCss = "fa-solid fa-folder-closed",
+    });
+    menuItems.Add(new
+    {
+        text = "Transactions",
+        iconCss = "fa-solid fa-arrow-right-arrow-left",
+        url = "/Transaction"
+    });
+
+    menuItems.Add(new
+    {
+        text = "Extras",
+        separator = true,
+    });
+    menuItems.Add(new
+    {
+        text = "Reports",
+        iconCss = "fa-solid fa-chart-simple",
+        url = "#"
+    }); menuItems.Add(new
+    {
+        text = "Settings",
+        iconCss = "fa-solid fa-gear",
+        url = "#"
+    });
+    @if (Context.Items["IsAuthenticated"] as bool? ?? false)
+    {
+        menuItems.Add(new
+        {
+            text = "Logout",
+            iconCss = "fa-solid fa-right-from-bracket",
+            url = "/Auth/Logout",
+        });
+    }
+}
+
+
+<ejs-sidebar id="sidebar" width="290px" enableDock dockSize="150px"
+             target=".dock-target" enableGestures="false">
+    <e-content-template>
+
+        <div class="logo-wrapper">
+            <div class="app-logo">
+                <img src="~/img/logo.png" width="50" height="50" />
+            </div>
+            <h6 class="mb-0">Wallet Watch</h6>
+            <div class="w-100"></div>
+            <i id="sidebar-toggler" class="fa-solid"></i>
+        </div>
+        @if (Context.Items["IsAuthenticated"] as bool? ?? false)
+        {
+            <div class="profile-wrapper">
+                <img class="profile-pic" src="@Context.Items["ProfilePictureURL"]" />
+                <div class="titles d-flex flex-column ps-3">
+                    <h6 class="mb-0">@Context.Items["Username"]</h6>
+                </div>
+            </div>
+        } else
+        {
+            <div class="profile-wrapper">
+                <div class="titles d-flex flex-row ps-3">
+                    <!-- 'flex-row' will be toggled with 'flex-column' -->
+                    <h6 class="mb-0 me-2">
+                        <!-- Changed inline style to use Bootstrap spacing utility class 'me-2' -->
+                        <a asp-controller="Auth" asp-action="Login" class="btn btn-login">LOGIN</a>
+                    </h6>
+                    <h6 class="mb-0">
+                        <a asp-controller="Auth" asp-action="Register" class="btn btn-register">REGISTER</a>
+                    </h6>
+                </div>
+            </div>
+        }
+
+
+        <ejs-menu id="menu"
+                  items="menuItems"
+                  orientation="Vertical"
+                  hamburgerMode></ejs-menu>
+
+    </e-content-template>
+</ejs-sidebar>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var dockBar = document.getElementById('sidebar').ej2_instances[0];
+
+        // Define a function to set the sidebar and titles' states
+        function setSidebarState(isCollapsed) {
+            var titles = document.querySelector('.profile-wrapper .titles');
+            if (isCollapsed) {
+                titles.classList.add('flex-column');
+                titles.classList.remove('flex-row');
+                titles.style.display = 'flex';
+                if (!dockBar.element.classList.contains('e-close')) {
+                    dockBar.toggle(); // Toggle to collapse if not already collapsed
+                }
+            } else {
+                titles.classList.remove('flex-column');
+                titles.classList.add('flex-row');
+                titles.style.display = 'flex';
+                if (dockBar.element.classList.contains('e-close')) {
+                    dockBar.toggle(); // Toggle to expand if not already expanded
+                }
+            }
+        }
+
+        // Check the sidebar state on initial load
+        var isSidebarCollapsed = localStorage.getItem('isSidebarCollapsed') === 'true';
+        setSidebarState(isSidebarCollapsed);
+
+        document.getElementById('sidebar-toggler').onclick = function () {
+            // Immediately toggle the sidebar state
+            dockBar.toggle();
+
+            // Use a timeout to allow the sidebar's CSS transition to complete
+            setTimeout(function () {
+                var isCollapsed = dockBar.element.classList.contains('e-close');
+                localStorage.setItem('isSidebarCollapsed', isCollapsed); // Save the new state
+                setSidebarState(isCollapsed); // Apply the state to the sidebar and titles
+            }, 250); // Ensure this timeout matches the CSS transition duration of the sidebar
+        };
+    });
+
+</script>

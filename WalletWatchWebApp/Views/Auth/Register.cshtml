@@ -3,52 +3,42 @@
     ViewData["Title"] = "Register";
 }
 
-<h2>@ViewData["Title"]</h2>
-
-<form asp-action="Register" method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+<div class="row">
+    <div class="col-md-7">
+        <div class="widget p-5" style="background-color:#212b36">
+            <form asp-action="Register">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3">
+                    <ejs-textbox id="Username" placeholder="Username" ejs-for="Username"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="FirstName" placeholder="First name" ejs-for="FirstName"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="LastName" placeholder="Last name" ejs-for="LastName"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="Email" placeholder="Email" ejs-for="Email"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox id="Password" type="password" placeholder="Password" ejs-for="Password"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <div class="mb-3">
+                    <ejs-textbox type="password" id="ConfPassword" placeholder="Confirm Password" ejs-for="ConfirmPassword"
+                                 floatLabelType="Always" multiline="false"></ejs-textbox>
+                </div>
+                <ejs-button id="submit" type="submit" content="REGISTER" cssClass="btn btn-login"></ejs-button>
+            </form>
+        </div>
     </div>
-
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
+    <div class="col-12 col-sm-12 col-md-5 usersWidget">
+        <div class="widget h-100 d-flex justify-content-center align-items-center p-3 p-md-0">
+            <i class="fa-solid fa-users fa-3x fa-md-2xl"></i>
+        </div>
     </div>
-
-    <div class="form-group">
-        <label asp-for="FirstName"></label>
-        <input asp-for="FirstName" class="form-control" />
-        <span asp-validation-for="FirstName" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="LastName"></label>
-        <input asp-for="LastName" class="form-control" />
-        <span asp-validation-for="LastName" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="ConfirmPassword"></label>
-        <input asp-for="ConfirmPassword" class="form-control" />
-        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Register</button>
-</form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+</div>

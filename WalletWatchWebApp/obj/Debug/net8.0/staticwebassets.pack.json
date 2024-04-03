@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\img\\avatars\\DefaultAvatar.png",
+      "PackagePath": "staticwebassets\\img\\avatars\\DefaultAvatar.png"
+    },
+    {
+      "Id": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

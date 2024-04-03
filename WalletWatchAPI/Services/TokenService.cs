@@ -26,7 +26,8 @@ namespace WalletWatchAPI.Services
             {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id),
             new Claim(JwtRegisteredClaimNames.Email, user.Email),
-            new Claim(JwtRegisteredClaimNames.Name, user.UserName)
+            new Claim(JwtRegisteredClaimNames.Name, user.UserName),
+            new Claim("avatar", user.ProfilePictureURL)
         };
 
             var tokenExpiration = rememberMe ? DateTime.Now.AddDays(30) : DateTime.Now.AddHours(1);

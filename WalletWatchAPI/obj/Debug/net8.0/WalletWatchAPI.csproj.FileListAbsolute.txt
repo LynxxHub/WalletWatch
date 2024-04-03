@@ -333,6 +333,8 @@ C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\NuGet.Versioning.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Syncfusion.EJ2.dll
+C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\Syncfusion.Licensing.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\System.CodeDom.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\VSRepo\WalletWatch\WalletWatchAPI\bin\Debug\net8.0\System.Composition.Convention.dll

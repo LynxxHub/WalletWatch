@@ -27,9 +27,14 @@ namespace WalletWatchWebApp.Middlewares
                 var jwtToken = handler.ReadJwtToken(token);
 
                 var usernameClaim = jwtToken.Claims.FirstOrDefault(claim => claim.Type == "name");
+                var profilePictureClaim = jwtToken.Claims.FirstOrDefault(claim => claim.Type == "avatar");
                 if (usernameClaim != null)
                 {
                     context.Items["Username"] = usernameClaim.Value;
+                }
+                if (profilePictureClaim != null)
+                {
+                    context.Items["ProfilePictureURL"] = profilePictureClaim.Value;
                 }
             }
             else

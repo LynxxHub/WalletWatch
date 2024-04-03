@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Syncfusion.EJ2.AspNet.Core": "25.1.38"
         },
         "runtime": {
           "WalletWatchAPI.dll": {}
@@ -1738,6 +1739,26 @@
           }
         }
       },
+      "Syncfusion.EJ2.AspNet.Core/25.1.38": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Syncfusion.Licensing": "25.1.38"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.EJ2.dll": {
+            "assemblyVersion": "25.1.38.0",
+            "fileVersion": "25.1.38.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/25.1.38": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "25.1.38.0",
+            "fileVersion": "25.1.38.0"
+          }
+        }
+      },
       "System.CodeDom/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -2925,6 +2946,20 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "Syncfusion.EJ2.AspNet.Core/25.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GL2c/W68yqlSTthtZup5RVchKKMpCAB9nUCUvcj6tD8TY4UbRVeZU2GAFLcVhFyPfo+rc+UWxNrPY4hMPgyoCQ==",
+      "path": "syncfusion.ej2.aspnet.core/25.1.38",
+      "hashPath": "syncfusion.ej2.aspnet.core.25.1.38.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/25.1.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zHOWLyRybkFd/tlF0AUicUM3so0JW6k6Ujc3q2M0mncCCtIxVYeYzDjMCmNZv2XAXDybn0q9Pnt9t6ibWJ7kyQ==",
+      "path": "syncfusion.licensing/25.1.38",
+      "hashPath": "syncfusion.licensing.25.1.38.nupkg.sha512"
     },
     "System.CodeDom/5.0.0": {
       "type": "package",

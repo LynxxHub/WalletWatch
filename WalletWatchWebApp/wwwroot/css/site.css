@@ -1,22 +1,477 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-family: "Inter";
+}
+
+*:not(.fa-solid):not(.fa):not(.e-icons) {
+    font-family: "Inter"
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #1e2b39;
+    color: #fff;
+    overflow: hidden;
+}
+
+.e-bigger {
+    font-size: x-large;
+}
+
+.main-content {
+    margin-left: 155px;
+    overflow-y: auto;
+    height: 92vh;
+}
+
+/* Reset the margin for mobile views */
+@media (max-width: 767px) {
+    .main-content {
+        margin-right: 10px; /* Adjust if you have a collapsed sidebar that still takes up some space */
+        padding-right: 0px; /* Add some padding to ensure the content is not touching the edge of the screen */
+    }
+
+    .usersWidget {
+        display: none;
+    }
+}
+
+/*BreadCrumb*/
+.e-breadcrumb a, .e-breadcrumb a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+/*Button*/
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/*Hyperlink*/
+.no-a-decoration, .no-a-decoration:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Grid*/
+.e-grid {
+    border: 0;
+    border-radius: 5px;
+}
+
+    .e-grid .e-gridcontent, .e-grid .e-table {
+        background-color: #1a222b;
+    }
+
+    .e-grid .e-gridheader {
+        border: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+        background-color: #222b33;
+    }
+
+        .e-grid .e-gridheader .e-headercell {
+            background-color: #222b33;
+        }
+
+    .e-grid .e-gridpager {
+        background-color: #1a222b;
+    }
+
+    .e-grid .e-pagercontainer {
+        border: none;
+        background-color: #1a222b;
+    }
+
+    .e-grid .e-content table {
+        padding: 0px 10px;
+    }
+
+.e-pagercontainer .e-icons {
+    background-color: #1a222b;
+    border: none !important;
+}
+
+.e-pager .e-numericitem {
+    color: #adb5bd;
+    background-color: #1a222b;
+    padding: 15px !important;
+}
+
+    .e-pager .e-numericitem:not(.e-currentitem) {
+        border: none !important;
+    }
+
+    .e-pager .e-numericitem:hover {
+        color: #fff;
+    }
+
+    .e-pager .e-numericitem.e-currentitem {
+        color: #fff;
+        border: none !important;
+        background-color: #31373d;
+    }
+
+.e-pager div.e-icons:not(.e-disable) {
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.e-grid .e-pager {
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*Logo*/
+.logo-wrapper {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app-logo {
+    padding: 10px 10px;
+}
+
+/*Menu*/
+#menu {
+    width: 100% !important;
+    background-color: inherit;
+    overflow: hidden;
+}
+
+    #menu .e-menu-item:not(.e-separator) {
+        height: 50px;
+        border-radius: 4px;
+    }
+
+    #menu .e-menu-item {
+        box-sizing: border-box;
+    }
+
+        #menu .e-menu-item a {
+            width: 100%;
+            color: rgb(171, 163, 152);
+            font-weight: 300;
+            padding: 7px 5px;
+            box-sizing: border-box;
+        }
+
+    #menu .e-anchor-wrap {
+        display: inline-block;
+    }
+
+    #menu .e-menu-item .e-anchor-wrap span.e-menu-icon {
+        color: rgb(171, 163, 152);
+    }
+
+    #menu .e-menu-item.e-separator {
+        border: none;
+        margin: 5px 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+        color: #6c9c41;
+    }
+
+        #menu .e-menu-item.e-separator:not(:first-child) {
+            margin-top: 35px;
+        }
+
+
+
+/*Navbar*/
+nav.navbar {
+    background-color: rgba(18, 22, 29);
+}
+
+    nav.navbar i {
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+        nav.navbar i:hover, nav.navbar img:hover {
+            cursor: pointer;
+            background-color: #48545f14;
+            transform: scale(1.05) translateZ(0px);
+        }
+
+nav.navbar {
+    margin-left: 290px;
+}
+
+/*Profile Pic*/
+img.profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(72, 84, 95, 0.12);
+    padding: 16px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+    .profile-wrapper .titles {
+        line-height: 1;
+    }
+
+/*Radio Button Group*/
+.e-btn-group.custom-rbt-group {
+    width: 100%;
+}
+
+    .e-btn-group.custom-rbt-group .e-btn {
+        width: 50%;
+    }
+
+.custom-rbt-group label.e-btn {
+    box-shadow: none !important;
+    border: 1px solid #fff;
+    background-color: rgb(34 43 51);
+    color: #fff;
+}
+
+.e-btn-group.custom-rbt-group input:checked + label.e-btn {
+    background-color: #fff;
+    color: #212b36;
+    border: 1px solid #fff;
+}
+
+/*SideBar*/
+#sidebar {
+    background-color: #182330;
+    border-right: 1px dashed rgba(75,82,85,0.24);
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+    #sidebar .e-menu-wrapper {
+        width: 100%;
+        background-color: inherit;
+    }
+
+#sidebar-toggler {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+    #sidebar-toggler:hover {
+        cursor: pointer;
+        background-color: #48545f14;
+        transform: scale(1.05) translateZ(0px);
+    }
+
+#sidebar.e-close {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    #sidebar.e-close .app-logo {
+        display: none;
+    }
+
+    #sidebar.e-close .e-anchor-wrap, #sidebar.e-close .e-menu-item.e-menu-caret-icon {
+        font-size: 0px;
+    }
+
+    #sidebar.e-close .profile-wrapper {
+        padding: 5px; /* Increase padding to make the gray box larger */
+        /* If you also want to make sure the profile-wrapper is exactly centered in the sidebar when it's closed: */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally in the box */
+        justify-content: center; /* Center items vertically in the box */
+    }
+
+        #sidebar.e-close .profile-wrapper .titles h6 {
+            width: 100%; /* Full width to contain the buttons */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* This ensures vertical alignment */
+        }
+
+        #sidebar.e-close .profile-wrapper .titles .btn {
+            width: 100%; /* Adjust the width percentage as desired */
+            margin: 10px 10px 5px 0px; /* Centralize the buttons within the h6 element */
+            padding: 10px 10px 10px 10px; /* Adjust the padding for button height, keep horizontal padding 0 */
+            /* Rest of your button styles */
+        }
+
+        /* Make sure the last button does not add extra space at the bottom */
+        #sidebar.e-close .profile-wrapper .titles h6:last-child {
+            margin-bottom: 0;
+        }
+
+
+    /* If you also want to adjust the height of the profile-wrapper when collapsed */
+    #sidebar.e-close .profile-wrapper {
+        height: auto; /* Let it adjust to the content */
+    }
+
+    #sidebar.e-open .e-anchor-wrap,
+    #sidebar.e-close .e-menu-icon, #sidebar.e-open .e-menu-icon {
+        visibility: visible;
+    }
+
+#sidebar.e-open .profile-wrapper .titles, #sidebar.e-open .app-logo {
+    display: flex;
+}
+
+#sidebar.e-sidebar.e-right.e-close {
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+#sidebar.e-open #sidebar-toggler:before {
+    content: '\f100'
+}
+
+#sidebar.e-close #sidebar-toggler:before {
+    content: '\f101'
+}
+
+/*Widget*/
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
+}
+
+    .widget.summary > div:first-child {
+        background-color: #222b33;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+        .widget.summary > div:first-child i {
+            font-weight: bold;
+        }
+
+    .widget.income > div:first-child {
+        color: #65da41;
+    }
+
+    .widget.expense > div:first-child {
+        color: #ff4e48;
+    }
+
+    .widget.balance > div:first-child {
+        color: #2aa1ff;
+    }
+
+    .widget.chart {
+        padding: 5px;
+    }
+
+.e-menu-wrapper .e-menu-parent .e-menu-item.e-selected,
+.e-menu-wrapper .e-menu-parent .e-menu-item.e-focused,
+.e-menu-wrapper .e-menu-parent .e-menu-item.e-focused .e-caret,
+.e-menu-wrapper .e-menu-parent .e-menu-item.e-selected .e-caret {
+    background-color: #4e703057;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #6ea329;
+    border-color: #6ea329;
+}
+
+.btn-register {
+    color: #fff;
+    background-color: #093a50;
+    border-color: #03445e;
+}
+
+.btn-login:hover {
+    background-color: #587c22; /* Darker green for hover */
+    border-color: #587c22; /* Use the same or a slightly darker color for the border */
+    color: #fff;
+}
+
+.btn-register:hover {
+    background-color: #072b3a; /* Darker blue for hover */
+    border-color: #072b3a; /* Use the same or a slightly darker color for the border */
+    color: #fff;
+}
+
+/* Ensure the titles are always visible and stack when needed */
+.profile-wrapper .titles {
+    display: flex;
+    transition: flex-direction 0.25s ease; /* Match this with the sidebar transition */
+}
+
+/* If you have a specific breakpoint where the sidebar collapses, use it here */
+@media (max-width: 768px) { /* Adjust as needed */
+    .profile-wrapper .titles.flex-column {
+        flex-direction: column;
+    }
+        /* You may also want to adjust the alignment and spacing for the stacked buttons */
+        .profile-wrapper .titles.flex-column h6 {
+            margin-right: 0; /* Remove right margin when stacked */
+            margin-bottom: 10px; /* Add space between stacked buttons */
+        }
+}
+
+/* At the end of your CSS to ensure it takes precedence, add rules for when the sidebar is collapsed */
+/* This ensures the titles div changes direction to column */
+.profile-wrapper .titles.flex-column {
+    flex-direction: column;
+}
+
+
+.e-input-group input {
+    /* Your custom styles here */
+    border: none;
+    border-bottom: 2px solid green;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+}
+
+.e-checkbox-wrapper.e-success .e-frame.e-check,
+.e-checkbox-wrapper.e-success .e-checkbox:focus + .e-frame.e-check {
+    background-color: #6ea329;
+    border-color: #6ea329;
+    color: #fff;
+}
+
+.e-checkbox-wrapper.e-success:hover .e-frame.e-check {
+    background-color: #449d44;
+    border-color: #449d44;
+}
+
+#menuitem_7 {
+    position: fixed; /* Fixed positioning relative to the viewport */
+    bottom: 10px; /* Align to the bottom */
+    width: 85%; /* To ensure it takes the full width of the sidebar */
 }

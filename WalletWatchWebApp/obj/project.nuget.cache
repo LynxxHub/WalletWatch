@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OpOWL+u+62L57/LEPd7tk+ZfmUwc428trbU7dHmGYRmzpmpv5igBMW0JBHvZmao64amZzg1Q2B8E4OAdhABnSA==",
+  "dgSpecHash": "rDuEW2p5Q3efes9o0XFcj0+TDz34t5nrGa8Sv5NSYVfgX+mD6O0IacB0nmQZIF6Gv7JOVzriKYSVRtLJtJjAtw==",
   "success": true,
   "projectFilePath": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\WalletWatchWebApp.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.0\\microsoft.identitymodel.jsonwebtokens.7.5.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.0\\microsoft.identitymodel.logging.7.5.0.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.0\\microsoft.identitymodel.tokens.7.5.0.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\syncfusion.ej2.aspnet.core\\25.1.38\\syncfusion.ej2.aspnet.core.25.1.38.nupkg.sha512",
+    "C:\\Users\\Wests\\.nuget\\packages\\syncfusion.licensing\\25.1.38\\syncfusion.licensing.25.1.38.nupkg.sha512",
     "C:\\Users\\Wests\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.0\\system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512"
   ],
   "logs": []
