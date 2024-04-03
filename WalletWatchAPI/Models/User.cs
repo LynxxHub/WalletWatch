@@ -28,12 +28,21 @@ namespace WalletWatchAPI.Models
             private set { _profilePictureURL = value; }
 		}
 
-        public User(string firstName, string lastName, string profilePictureURL)
-        {
-			FirstName = firstName;
-			LastName = lastName;
-			ProfilePictureURL = profilePictureURL;
-        }
+		private IList<Loan> _loans;
+
+		public IList<Loan> Loans
+		{
+			get { return _loans; }
+            private set { _loans = value; }
+		}
+
+		private IList<Transaction> _transactions;
+
+		public IList<Transaction> Transactions
+		{
+			get { return _transactions; }
+            private set { _transactions = value; }
+		}
 
         public User()
         {
