@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "wtnQ0aUJ3nr/SKCDPvOakEfnZeswdT8qx2PLvSjV9rQ=",
+  "Hash": "rYCpZuCNz+9U0lwG8/JYnf4AutKzG8rDZ9dtyj+oxQs=",
   "Source": "WalletWatchWebApp",
   "BasePath": "_content/WalletWatchWebApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\WalletWatchAPI.csproj",
+      "Version": 2,
+      "Source": "WalletWatchAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "WalletWatchWebApp\\wwwroot",

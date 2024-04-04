@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WalletWatchAPI.Models.Enums;
 
 namespace WalletWatchAPI.DTOs
 {
@@ -11,5 +12,8 @@ namespace WalletWatchAPI.DTOs
 
         [Required]
         public string Icon { get; set; }
+
+        [Required]
+        public string Type { get; set; }
     }
 }

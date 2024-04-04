@@ -3,124 +3,59 @@
   "WorkspaceRootPath": "C:\\VSRepo\\WalletWatch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WalletWatchDB/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\dtos\\transactioncategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\dtos\\transactioncategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\enums\\recurrenceperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\enums\\recurrenceperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\enums\\loantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\enums\\loantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\migrations\\20240404123416_addcategorytypemig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\migrations\\20240404123416_addcategorytypemig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\walletwatchapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\walletwatchapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\shared\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\shared\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|c:\\vsrepo\\walletwatch\\walletwatchwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F25932-C379-4622-9B67-05FF4926F236}|WalletWatchWebApp\\WalletWatchWebApp.csproj|solutionrelative:walletwatchwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|c:\\vsrepo\\walletwatch\\walletwatchapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93B3F03-FFC6-4020-B7B4-A8AF54B54085}|WalletWatchAPI\\WalletWatchAPI.csproj|solutionrelative:walletwatchapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,396 +65,185 @@
       "DocumentGroups": [
         {
           "DockedWidth": 256,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Program.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Program.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwDwAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T08:24:10.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Mappings\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T08:07:39.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "WalletWatchAPI\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:59:54.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\CategoryService.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Services\\CategoryService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwEAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:53:15.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "WalletWatchAPI\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:50:13.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Services\\TokenService.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\TokenService.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Services\\TokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:50:07.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TransactionCategoryDTO.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
-              "RelativeToolTip": "WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:50:01.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Services\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Services\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:49:17.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:15:52.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAQwDQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:14:25.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoanType.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\LoanType.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\Enums\\LoanType.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\LoanType.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\Enums\\LoanType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T23:07:51.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\User.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\User.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\User.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:46:01.207Z",
+              "Title": "dbo.Categories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WalletWatchDB/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "dbo.Categories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-04T13:03:42.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransactionCategory.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\TransactionCategory.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\TransactionCategory.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\TransactionCategory.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\TransactionCategory.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAowCYAAAAmAAAA",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "WalletWatchAPI\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:44:15.93Z",
+              "WhenOpened": "2024-04-04T12:58:34.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "WalletWatchAPI\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:51:49.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "WalletWatchAPI\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:51:45.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240404123416_AddCategoryTypeMig.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Migrations\\20240404123416_AddCategoryTypeMig.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\Migrations\\20240404123416_AddCategoryTypeMig.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Migrations\\20240404123416_AddCategoryTypeMig.cs",
+              "RelativeToolTip": "WalletWatchAPI\\Migrations\\20240404123416_AddCategoryTypeMig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:34:20.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Title": "TransactionCategory.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\TransactionCategory.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\TransactionCategory.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\TransactionCategory.cs",
+              "RelativeToolTip": "WalletWatchAPI\\Models\\TransactionCategory.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:42:47.402Z",
+              "WhenOpened": "2024-04-04T12:33:41.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Loan.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\Loan.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Loan.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\Loan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAaAAAA",
+              "DocumentIndex": 8,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WalletWatchWebApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "WalletWatchWebApp\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T21:13:00.942Z",
+              "WhenOpened": "2024-04-04T12:27:14.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RecurrencePeriod.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\RecurrencePeriod.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\Enums\\RecurrencePeriod.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\RecurrencePeriod.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\Enums\\RecurrencePeriod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "DocumentIndex": 3,
+              "Title": "TransactionCategoryDTO.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
+              "RelativeToolTip": "WalletWatchAPI\\DTOs\\TransactionCategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:58:11.437Z",
+              "WhenOpened": "2024-04-04T12:21:01.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "TransactionType.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\TransactionType.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\Enums\\TransactionType.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Enums\\TransactionType.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\Enums\\TransactionType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "WalletWatchAPI",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\WalletWatchAPI.csproj",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\WalletWatchAPI.csproj",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\WalletWatchAPI.csproj",
+              "RelativeToolTip": "WalletWatchAPI\\WalletWatchAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-04T12:20:56.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "WalletWatchWebApp\\Models\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "WalletWatchWebApp\\Models\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:46:49.566Z",
+              "WhenOpened": "2024-04-04T12:20:43.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "WalletWatchWebApp\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T12:07:26.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "WalletWatchAPI\\Models\\Transaction.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Models\\Transaction.cs",
-              "RelativeToolTip": "WalletWatchAPI\\Models\\Transaction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:44:19.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Models\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Models\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "WalletWatchWebApp\\Models\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:36:49.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:17:33.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WalletWatchWebApp\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WalletWatchWebApp\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAqAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:13:35.962Z",
+              "WhenOpened": "2024-04-04T11:49:27.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "WalletWatchWebApp\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-03T13:12:31.384Z",
+              "DocumentIndex": 10,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WalletWatchWebApp\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WalletWatchWebApp\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:48:57.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAIwJAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:10:28.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_StatusMessage.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_StatusMessage.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Shared\\_StatusMessage.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_StatusMessage.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Shared\\_StatusMessage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:10:27.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:10:26.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:10:24.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T13:10:24.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T12:41:09.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WalletWatchWebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-03T12:39:18.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WalletWatchWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WalletWatchWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T22:35:24.75Z",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WalletWatchAPI\\Program.cs",
+              "ToolTip": "C:\\VSRepo\\WalletWatch\\WalletWatchAPI\\Program.cs",
+              "RelativeToolTip": "WalletWatchAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:44:54.269Z",
               "EditorCaption": ""
             }
           ]

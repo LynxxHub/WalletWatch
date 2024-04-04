@@ -1,4 +1,5 @@
 ﻿using WalletWatchAPI.DTOs;
+using WalletWatchAPI.Models.Enums;
 
 namespace WalletWatchAPI.Models
 {
@@ -28,7 +29,16 @@ namespace WalletWatchAPI.Models
             private set { _name = value; }
 		}
 
-        public TransactionCategory()
+		private TransactionType _type;
+
+		public TransactionType Type
+		{
+			get { return _type; }
+			private set { _type = value; }
+		}
+
+
+		public TransactionCategory()
         {
             
         }
