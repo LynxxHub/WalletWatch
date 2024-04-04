@@ -1,4 +1,6 @@
-﻿namespace WalletWatchAPI.Models
+﻿using WalletWatchAPI.DTOs;
+
+namespace WalletWatchAPI.Models
 {
     public class TransactionCategory
     {
@@ -30,5 +32,11 @@
         {
             
         }
+
+		public void Update(TransactionCategoryDTO transactionCategoryDto)
+		{
+			Name = transactionCategoryDto.Name;
+			Icon = transactionCategoryDto.Icon;
+		}
     }
 }

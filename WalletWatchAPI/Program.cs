@@ -52,12 +52,13 @@ namespace WalletWatchAPI
                     };
                 });
 
-
+            //DI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
             builder.Services.AddTransient<ITokenService,TokenService>();
+            builder.Services.AddTransient<ICategoryService,CategoryService>();
 
             var app = builder.Build();
 
