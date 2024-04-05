@@ -2,7 +2,8 @@
 @{
     ViewData["PageTitle"] = "Categories";
     ViewData["PageActionText"] = "+ New Category";
-    ViewData["PageActionUrl"] = "#";
+    ViewData["PageActionController"] = "Category";
+    ViewData["PageAction"] = "Create";
 }
 
 
@@ -14,7 +15,7 @@
             <e-grid-columns>
                 <e-grid-column headerText="Name" field="Name"></e-grid-column>
                 <e-grid-column headerText="Icon" field="Icon" width="150px"></e-grid-column>
-                <e-grid-column headerText="Type" field="Type" width="150px"></e-grid-column>
+                <e-grid-column headerText="Type" template="#typeColumnTemplate" width="150px"></e-grid-column>
                 <e-grid-column headerText="Actions" template="#actionColumnTemplate" width="100px"></e-grid-column>
             </e-grid-columns>
         </ejs-grid>
@@ -29,17 +30,17 @@
 <script id="typeColumnTemplate" type="text/x-template">
     ${if(Type=="Income")}
         <span class="badge bg-success">${Type}</span>
-    ${else}
+    ${else if(Type=="Expense")}
         <span class="badge bg-danger">${Type}</span>
     ${/if}
 </script>
 
 <script id="actionColumnTemplate" type="text/x-template">
     <div class="d-flex flex-row justify-content-start">
-        <a class="btn btn-sm no-a-decoration" href="/Category/AddOrEdit/${CategoryId}">
+        <a class="btn btn-sm no-a-decoration" href="/Category/Edit/${Id}">
             <i class="fa-solid fa-pen fa-lg"></i>
         </a>
-        <form action="/Category/Delete/${CategoryId}" method="post">
+        <form action="/Category/Delete/${Id}" method="post">
             @Html.AntiForgeryToken()
             <button type="submit" class="btn btn-sm btn-link no-a-decoration"
             onclick="return confirm(&quot;Are sure to delete this record?&quot;)">

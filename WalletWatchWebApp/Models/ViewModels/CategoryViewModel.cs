@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WalletWatchAPI.Models.Enums;
 
 namespace WalletWatchWebApp.Models.ViewModels
 {

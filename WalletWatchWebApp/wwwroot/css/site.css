@@ -251,16 +251,24 @@ img.profile-pic {
 
 .custom-rbt-group label.e-btn {
     box-shadow: none !important;
-    border: 1px solid #fff;
-    background-color: rgb(34 43 51);
     color: #fff;
+    background-color: #093a50;
+    border-color: #03445e;
 }
 
+
 .e-btn-group.custom-rbt-group input:checked + label.e-btn {
-    background-color: #fff;
-    color: #212b36;
-    border: 1px solid #fff;
+    color: #fff;
+    background-color: #6ea329;
+    border-color: #6ea329;
 }
+
+.e-btn-group .e-btn:active, .e-btn-group input:active + label.e-btn, .e-btn-group input:checked + label.e-btn, .e-css.e-btn-group .e-btn:active, .e-css.e-btn-group input:active + label.e-btn, .e-css.e-btn-group input:checked + label.e-btn {
+    color: #fff;
+    background-color: #093a50;
+    border-color: #03445e;
+}
+
 
 /*SideBar*/
 #sidebar {
@@ -474,4 +482,65 @@ img.profile-pic {
     position: fixed; /* Fixed positioning relative to the viewport */
     bottom: 10px; /* Align to the bottom */
     width: 85%; /* To ensure it takes the full width of the sidebar */
+}
+
+
+/*.e-float-input input, .e-float-input textarea, .e-float-input.e-control-wrapper input, .e-float-input.e-control-wrapper textarea {
+
+    box-shadow: none;
+    -webkit-appearance: none;
+    outline: none;
+}*/
+
+.e-float-input input, .e-float-input textarea, .e-float-input.e-control-wrapper input, .e-float-input.e-control-wrapper textarea {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: #6ea329;
+    background-color: rgba(72, 84, 95, 0.12);
+}
+
+.e-float-input input:focus, .e-float-input textarea:focus,
+.e-float-input.e-control-wrapper input:focus, .e-float-input.e-control-wrapper textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    border-bottom-color: #6ea329 !important;
+    caret-color: #6ea329;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: rgba(72, 84, 95, 0.12) !important;
+    -webkit-box-shadow: 0 0 0px 1000px black inset !important;
+}
+
+.alert {
+    position: relative;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    right: 0px;
+    top: -4px;
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #6ea329;
+    border-color: #15394f;
+}
+
+.alert-danger {
+    color: #fff;
+    background-color: #d34249;
+    border-color: #15394f;
 }

@@ -21,24 +21,25 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-11 col-md-10 col-lg-12">
                     <main role="main" class="pb-3">
+                        <partial name="_StatusMessage" for="@TempData["Notification"]" />
                         @if (ViewData["isDashboard"] == null)
                         {
                             <div class="row">
                                 <div class="col-12 col-md-7 col-lg-6">
                                     <div class="mb-3 mb-md-5">
                                         <h3 class="fw-bold">@ViewData["PageTitle"]</h3>
-                                        @if (ViewData["PageActionText"] != null)
-                                        {
-                                            <a class="btn btn-success" href="@ViewData["PageActionUrl"]">
-                                                @ViewData["PageActionText"]
-                                            </a>
-                                        }
                                         <ejs-breadcrumb id="breadcrumb"
                                                         separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")"></ejs-breadcrumb>
                                     </div>
                                 </div>
                             </div>
                         }
+                        <div style="margin-bottom:15px">
+                            @if (ViewData["PageActionText"] != null)
+                            {
+                                <a asp-controller="@ViewData["PageActionController"]" asp-action="@ViewData["PageAction"]" class="btn btn-login">@ViewData["PageActionText"]</a>
+                            }
+                        </div>
                         @RenderBody()
                     </main>
                 </div>

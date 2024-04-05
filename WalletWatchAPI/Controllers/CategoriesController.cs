@@ -33,35 +33,45 @@ namespace WalletWatchAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategoryAsync(string id, TransactionCategoryDTO transactionCategoryDTO)
         {
-            bool isUpdated;
-            try
+            if (ModelState.IsValid)
             {
-                isUpdated = await _categoryService.UpdateCategoryAsync(id, transactionCategoryDTO);
-            }
-            catch (InvalidOperationException ex)
-            {
+                bool isUpdated;
+                try
+                {
+                    isUpdated = await _categoryService.UpdateCategoryAsync(id, transactionCategoryDTO);
+                }
+                catch (InvalidOperationException ex)
+                {
 
-                return NotFound(ex.Message);
+                    return NotFound(ex.Message);
+                }
+
+                CreatedAtAction("GetCategory", new { id = transactionCategoryDTO.Id }, transactionCategoryDTO);
             }
 
-            return NoContent();
+            return BadRequest(ModelState);
         }
 
 
         [HttpPost]
         public async Task<IActionResult> CreateCategoryAsync(TransactionCategoryDTO categoryDTO)
         {
-            try
+            if (ModelState.IsValid)
             {
-                categoryDTO = await _categoryService.AddCategoryAsync(categoryDTO);
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
-                return BadRequest(ModelState);
+                try
+                {
+                    categoryDTO = await _categoryService.AddCategoryAsync(categoryDTO);
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", ex.Message);
+                    return BadRequest(ModelState);
+                }
+
+                return CreatedAtAction("GetCategory", new { id = categoryDTO.Id }, categoryDTO);
             }
 
-            return CreatedAtAction("GetCategory", new { id = categoryDTO.Id }, categoryDTO);
+            return BadRequest(ModelState);
         }
 
 
