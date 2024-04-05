@@ -47,6 +47,7 @@ namespace WalletWatchAPI.Models
 		{
 			Name = transactionCategoryDto.Name;
 			Icon = transactionCategoryDto.Icon;
+			Type = (TransactionType)Enum.Parse(typeof(TransactionType), transactionCategoryDto.Type);
 		}
     }
 }

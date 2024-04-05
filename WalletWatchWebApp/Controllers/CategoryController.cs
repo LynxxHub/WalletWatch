@@ -56,5 +56,41 @@ namespace WalletWatchWebApp.Controllers
 
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(string id)
+        {
+            var httpClient = _httpClientFactory.CreateClient();
+            var category = await httpClient.GetFromJsonAsync<CategoryViewModel>($"https://localhost:7234/api/Categories/{id}");
+
+            if (category == null)
+            {
+                TempData["Notification"] = $"ERROR: Category with ID {id} does not exist.";
+                return RedirectToAction("Index");
+            }
+            return View(category);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(CategoryViewModel category)
+        {
+            if (ModelState.IsValid)
+            {
+                var httpClient = _httpClientFactory.CreateClient();
+                var response = await httpClient.PutAsJsonAsync($"https://localhost:7234/api/Categories/{category.Id}", category);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["Notification"] = "Category updated successfully!";
+                    return View(category);
+                }
+                //TODO: Logger
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+        
     }
 }
