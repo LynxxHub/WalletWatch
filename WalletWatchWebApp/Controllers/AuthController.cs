@@ -31,6 +31,11 @@ namespace WalletWatchWebApp.Controllers
         {
             if (!ModelState.IsValid)
             {
+                TempData["Error"] = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .FirstOrDefault();
+
                 return View();
             }
 
@@ -65,6 +70,8 @@ namespace WalletWatchWebApp.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            TempData["Error"] = await response.Content.ReadAsStringAsync();
+
             return View();
         }
 
@@ -91,6 +98,29 @@ namespace WalletWatchWebApp.Controllers
             }
 
             return RedirectToAction("Login");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ConfirmEmail(string userId, string code)
+        {
+            if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(code))
+            {
+                return Redirect("/");
+            }
+
+            var httpClient = _httpClientFactory.CreateClient();
+            var response = await httpClient.GetAsync($"https://localhost:7234/api/auth/confirmEmail?userId={userId}&code={code}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Notification"] = "Email confirmed successfully!";
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                TempData["Notification"] = "Error confirming your email. Please try again.";
+                return RedirectToAction("Login");
+            }
         }
 
         [HttpPost]

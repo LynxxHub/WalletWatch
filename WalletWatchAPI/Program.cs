@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -7,6 +8,7 @@ using WalletWatchAPI.Data;
 using WalletWatchAPI.Models;
 using WalletWatchAPI.Services;
 using WalletWatchAPI.Services.Interfaces;
+using WalletWatchAPI.Services.Settings;
 //1532 -
 namespace WalletWatchAPI
 {
@@ -30,7 +32,7 @@ namespace WalletWatchAPI
                 options.Password.RequireUppercase = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireDigit = false;
-                options.SignIn.RequireConfirmedAccount = false;
+                options.SignIn.RequireConfirmedAccount = true;
             })
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
@@ -51,6 +53,11 @@ namespace WalletWatchAPI
                     };
                 });
 
+
+            //SMTP Config
+            builder.Services.Configure<SMTPSettings>(builder.Configuration.GetSection("SMTP"));
+
+
             //DI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
@@ -58,6 +65,9 @@ namespace WalletWatchAPI
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
             builder.Services.AddTransient<ITokenService,TokenService>();
             builder.Services.AddTransient<ICategoryService,CategoryService>();
+            builder.Services.AddTransient<IEmailSender,EmailSender>();
+
+
 
             var app = builder.Build();
 

@@ -21,7 +21,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-11 col-md-10 col-lg-12">
                     <main role="main" class="pb-3">
-                        <partial name="_StatusMessage" for="@TempData["Notification"]" />
+                        
                         @if (ViewData["isDashboard"] == null)
                         {
                             <div class="row">
@@ -35,11 +35,13 @@
                             </div>
                         }
                         <div style="margin-bottom:15px">
+                            
                             @if (ViewData["PageActionText"] != null)
                             {
                                 <a asp-controller="@ViewData["PageActionController"]" asp-action="@ViewData["PageAction"]" class="btn btn-login">@ViewData["PageActionText"]</a>
                             }
                         </div>
+                        <partial name="_StatusMessage" />
                         @RenderBody()
                     </main>
                 </div>
